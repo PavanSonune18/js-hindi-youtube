@@ -31,11 +31,13 @@
 
 //replace word charter to the another charater
 
-const url = "https://Pavan.com/Pavan%20chodhary";
-console.log(url.replace('20','-'));
+// const url = "https://Pavan.com/Pavan%20chodhary";
+// console.log(url.replace('20','-'));
 
 
-console.log(url.includes("Pavan"));
+// console.log(url.includes("Pavan"));
 
 
-console.log(url.split('/'));
+// console.log(url.split('/'));
+
+
