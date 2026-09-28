@@ -1,9 +1,9 @@
-const name = "Pavan";
-const repoCount = 50;
+// const name = "Pavan";
+// const repoCount = 50;
 
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+// console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
-const gameName = new String("Pavan");
+// const gameName = new String("Pavan");
 
 // console.log(gameName[0]);
 // console.log(gameName.__proto__);
@@ -35,3 +35,7 @@ const url = "https://Pavan.com/Pavan%20chodhary";
 console.log(url.replace('20','-'));
 
 
+console.log(url.includes("Pavan"));
+
+
+console.log(url.split('/'));
