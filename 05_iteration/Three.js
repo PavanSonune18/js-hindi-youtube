@@ -22,36 +22,51 @@
 
 //Maps = map() is the array method to create new array applying function to every element of the original array.
 
-const map = new Map()
-map.set('IN',"India")
-map.set('USA',"United States of America")
-map.set('Fr',"France")
-map.set("IN","India")
+// const map = new Map()
+// map.set('IN',"India")
+// map.set('USA',"United States of America")
+// map.set('Fr',"France")
+// map.set("IN","India")
 //console.log(map)
 
-for(const [key,value] of map){
-    console.log(key,':-',value);
-}
+// for(const [key,value] of map){
+//     console.log(key,':-',value);
+// }
 
-const myObject = {
-    'game1': 'NFS',
-    'game2': 'Spiderman'
-}
+// const myObject = {
+//     'game1': 'NFS',
+//     'game2': 'Spiderman'
+// }
 
 
 const myObjects = {
     js:'javascript',
     cpp:'c++',
     rb:"ruby",
-    swift:"swift by apply";
+    swift:"swift by apply"
 
 }
-for(const key in myObjects){
-    console.log('');
+
+// only print the key 
+// for(const key in myObjects){
+//     console.log(myObjects[key]);
+// }
+
+
+// both print key and value for myObject
+
+// for(const key in  myObjects){
+// console.log(`${key} shortcut is for ${myObjects[key]}`)
+// }
+
+
+// Array in for in loop and for of loops
+
+const Programming = ["js","rb","py","java","cpp"]
+
+for(const key in Programming){
+    console.log(key,Programming[key]);
 }
-
-
-
 
 
 
